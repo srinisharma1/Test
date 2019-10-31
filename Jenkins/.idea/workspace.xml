@@ -11,11 +11,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/base/logging.conf">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ui/google_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -27,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/base/selenium_driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
+            <state relative-caret-position="1410">
               <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -39,8 +34,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/utils/create_driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,40 +56,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#7794#7800#0" expanded="true" />
-                <element signature="e#7806#7812#0" expanded="true" />
-                <element signature="e#7814#7820#0" expanded="true" />
-                <element signature="e#7825#7831#0" expanded="true" />
-                <element signature="e#7833#7839#0" expanded="true" />
-                <element signature="e#7841#7847#0" expanded="true" />
-                <element signature="e#7849#7855#0" expanded="true" />
-                <element signature="e#7860#7866#0" expanded="true" />
-                <element signature="e#7868#7874#0" expanded="true" />
-                <element signature="e#7880#7886#0" expanded="true" />
-                <element signature="e#7888#7894#0" expanded="true" />
-                <element signature="e#7900#7906#0" expanded="true" />
-                <element signature="e#8058#8064#0" expanded="true" />
-                <element signature="e#8068#8074#0" expanded="true" />
-                <element signature="e#8076#8082#0" expanded="true" />
-                <element signature="e#8087#8093#0" expanded="true" />
-                <element signature="e#8095#8101#0" expanded="true" />
-                <element signature="e#8109#8115#0" expanded="true" />
-                <element signature="e#8117#8123#0" expanded="true" />
-                <element signature="e#8128#8134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/smoke/suit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -138,17 +106,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/lib/utils/create_driver.py" />
         <option value="$PROJECT_DIR$/lib/base/selenium_driver.py" />
         <option value="$PROJECT_DIR$/lib/ui/google_page.py" />
         <option value="$PROJECT_DIR$/suit.py" />
         <option value="$PROJECT_DIR$/Report.html" />
-        <option value="$PROJECT_DIR$/test/smoke/suit.py" />
         <option value="$PROJECT_DIR$/test/smoke/Report.html" />
         <option value="$PROJECT_DIR$/logmessage.log" />
         <option value="$PROJECT_DIR$/report.html" />
         <option value="$PROJECT_DIR$/test/smoke/test_Google_Title.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/test/smoke/suit.py" />
+        <option value="$PROJECT_DIR$/lib/utils/create_driver.py" />
       </list>
     </option>
   </component>
@@ -169,6 +137,11 @@
             <path>
               <item name="Jenkins" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jenkins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jenkins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="browsers_exe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jenkins" type="b2602c69:ProjectViewProjectNode" />
@@ -215,20 +188,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/browsers_exe" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test/smoke" />
-      <recent name="$PROJECT_DIR$/browsers_exe" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/browsers_exe" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/test/smoke" />
       <recent name="$PROJECT_DIR$/lib/utils" />
       <recent name="$PROJECT_DIR$/lib/ui" />
-      <recent name="$PROJECT_DIR$/lib/base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/browsers_exe" />
+      <recent name="$PROJECT_DIR$/test/smoke" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,9 +300,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/browsers_exe/chromedriver">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/smoke/Report.html" />
     <entry file="file://$PROJECT_DIR$/lib/base/logging.conf">
       <provider selected="true" editor-type-id="text-editor" />
@@ -338,16 +308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/base/selenium_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -362,42 +322,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7794#7800#0" expanded="true" />
-            <element signature="e#7806#7812#0" expanded="true" />
-            <element signature="e#7814#7820#0" expanded="true" />
-            <element signature="e#7825#7831#0" expanded="true" />
-            <element signature="e#7833#7839#0" expanded="true" />
-            <element signature="e#7841#7847#0" expanded="true" />
-            <element signature="e#7849#7855#0" expanded="true" />
-            <element signature="e#7860#7866#0" expanded="true" />
-            <element signature="e#7868#7874#0" expanded="true" />
-            <element signature="e#7880#7886#0" expanded="true" />
-            <element signature="e#7888#7894#0" expanded="true" />
-            <element signature="e#7900#7906#0" expanded="true" />
-            <element signature="e#8058#8064#0" expanded="true" />
-            <element signature="e#8068#8074#0" expanded="true" />
-            <element signature="e#8076#8082#0" expanded="true" />
-            <element signature="e#8087#8093#0" expanded="true" />
-            <element signature="e#8095#8101#0" expanded="true" />
-            <element signature="e#8109#8115#0" expanded="true" />
-            <element signature="e#8117#8123#0" expanded="true" />
-            <element signature="e#8128#8134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/smoke/suit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/smoke/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -419,10 +344,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/base/selenium_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browsers_exe/chromedriver">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/smoke/suit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/utils/create_driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

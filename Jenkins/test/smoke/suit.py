@@ -11,6 +11,7 @@ def suite():
     # Get all the test from TestOne & TestTwo
     Verify_Google_Title = unittest.TestLoader().loadTestsFromTestCase(test_Sample)
 
+
     #Create a test suite
     suite = unittest.TestSuite()
     suite.addTests(Verify_Google_Title)

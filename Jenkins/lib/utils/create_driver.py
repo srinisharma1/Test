@@ -1,5 +1,6 @@
 from selenium.webdriver import Chrome, Firefox
-
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 class WebDriverFactory():
 
@@ -11,13 +12,17 @@ class WebDriverFactory():
 
         if self.browser == "firefox":
             # Set ie driver
-            driver = Firefox('/Users/srinivas/PycharmProjects/Opinion/browsers_exe/geckodriver')
+            # driver = Chrome(executable_path='/Users/srinivas/PycharmProjects/Opinion/browsers_exe/chromedriver1')#/Users/srinivas/PycharmProjects/Opinion/browsers_exe/geckodriver
+            driver = webdriver.Chrome(ChromeDriverManager().install())
 
         elif self.browser == "chrome":
             # Set chrome driver
-            driver = Chrome('/Users/srinivas/downloads/chromedriver')
+            # driver = Chrome(executable_path='/Users/srinivas/PycharmProjects/Opinion/browsers_exe/chromedriver1')
+            driver = webdriver.Chrome(ChromeDriverManager().install())
+
         else:
-            driver = Chrome('/Users/srinivas/downloads/chromedriver')
+            # driver = Chrome(executable_path='/Users/srinivas/PycharmProjects/Opinion/browsers_exe/chromedriver1')
+            driver = webdriver.Chrome(ChromeDriverManager().install())
 
         # SETTING UP THE URL
         if self.baseURL == 'prod':
